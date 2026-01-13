@@ -99,3 +99,16 @@ insert into Products values (3,'Earpods','Apple')
 insert into Products values (4,'Laptop','Toshiba')
 --The INSERT statement conflicted with the CHECK constraint "CK__Products__PCompa__440B1D61". 
 --The conflict occurred in database "OurDb", table "dbo.Products", column 'PCompany'.
+-- Default : if not provided the value , it will take default
+drop table  Customer
+create table Customer
+(CId int primary key,
+Cname nvarchar(50) not null,
+ODLimit float check (ODLimit >=2000 and ODLimit<=25000),
+City nvarchar(50) not null default 'KL'
+)
+insert into Customer values (1,'Sam',5000,'California')
+insert into Customer values (2,'Deep',4500,'Delhi')
+select * from Customer
+insert into Customer(CId,Cname,ODLimit) values (3,'Raj',4500)
+select * from Customer
