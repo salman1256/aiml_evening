@@ -1,0 +1,7 @@
+ProductID,ProductName,Category,City,ImageURL,Sales
+1,Laptop,Electronics,Delhi,https://cdn-icons-png.flaticon.com/512/3081/3081559.png,75000
+2,Mobile,Electronics,Mumbai,https://cdn-icons-png.flaticon.com/512/545/545245.png,35000
+3,Chair,Furniture,Bangalore,https://cdn-icons-png.flaticon.com/512/1670/1670080.png,8000
+4,Table,Furniture,Chennai,https://cdn-icons-png.flaticon.com/512/1670/1670079.png,12000
+5,Headphones,Electronics,Delhi,https://cdn-icons-png.flaticon.com/512/727/727269.png,5000
+6,Sofa,Furniture,Mumbai,https://cdn-icons-png.flaticon.com/512/1670/1670065.png,45000
