@@ -1,0 +1,2 @@
+Here are some information abut this code
+we have created one list_ex and info.txt file
